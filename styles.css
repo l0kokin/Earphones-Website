@@ -28,7 +28,7 @@
   display: flex;
   gap: 100px;
   padding: 10px 150px;
-  background-color: var(--backgroundorange);
+  background: #ffc95c;
 
   p {
     font-size: 24px;
@@ -61,7 +61,7 @@
 }
 
 .header {
-  background-color: var(--backgroundorange);
+  background: var(--backgroundorange);
   height: 820px;
   display: flex;
   padding: 0px 100px;
