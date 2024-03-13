@@ -1,0 +1,29 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --textorange: #ffab00;
+  --backgroundorange: linear-gradient(#ffc95c, #ffab00);
+  --blue: #377dff;
+  --black: #141718;
+  --white: #fff;
+  --lightgrey: #f3f5f7;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+ul {
+  list-style: none;
+}
+
+.flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
