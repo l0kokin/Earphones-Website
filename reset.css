@@ -7,6 +7,7 @@
 :root {
   --textorange: #ffab00;
   --backgroundorange: linear-gradient(#ffc95c, #ffab00);
+  /* --backgroundorange: #ffab00; */
   --blue: #377dff;
   --black: #141718;
   --white: #fff;
