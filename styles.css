@@ -27,7 +27,7 @@
 .navigation-bar {
   display: flex;
   gap: 100px;
-  padding: 10px 150px;
+  padding: 10px 160px;
   background: #ffc95c;
 
   p {
@@ -96,26 +96,117 @@
   text-align: left;
 }
 
-.btn-black {
-  font-family: Inter;
-  background-color: var(--black);
-  color: var(--white);
-  width: 234px;
-  height: 56px;
-  padding: 12px 56px;
-  border-radius: 8px;
-  gap: 8px;
-  margin-top: 20px;
-  font-size: 18px;
-  font-weight: 500;
-  line-height: 32px;
-  letter-spacing: -0.4000000059604645px;
-}
-
 .brand-logos {
   display: flex;
   gap: 24px;
   padding: 20px 100px;
   align-items: center;
   justify-content: center;
+}
+
+.new-arrivals {
+  margin: 48px 160px;
+}
+
+.cards {
+  display: flex;
+  gap: 24px;
+}
+
+.card--item {
+  position: relative;
+}
+
+.card--image {
+  z-index: -1;
+}
+
+.card--new-icon {
+  position: absolute;
+  top: 16px;
+  left: 16px;
+  z-index: 1;
+}
+
+.add-to-wishlist {
+  position: absolute;
+  top: 16px;
+  left: 214px;
+}
+
+.btn-addtocard {
+  position: absolute;
+  top: 287px;
+  left: 16px;
+}
+
+.card--text {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.card-description {
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 26px;
+}
+
+.price {
+  font-family: Inter;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 22px;
+}
+
+.shop-collection {
+  margin: 48px 160px;
+  padding-top: 48px;
+}
+
+.collection--images {
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-template-rows: auto auto;
+  gap: 24px;
+
+  div:nth-child(1) {
+    grid-column: 1;
+    grid-row: span 2;
+  }
+}
+
+.collection--item {
+  position: relative;
+  z-index: -1;
+}
+
+.collection--text {
+  position: absolute;
+  bottom: 48px;
+  left: 48px;
+  z-index: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.collection--title {
+  font-size: 34px;
+  font-weight: 500;
+  line-height: 38px;
+}
+
+.collection--btn {
+  border: none;
+  border-bottom: 1px solid var(--border-color);
+  background-color: transparent;
+  width: 98px;
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 28px;
 }
