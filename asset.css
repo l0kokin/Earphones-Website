@@ -14,6 +14,7 @@
   --grey: #6c7275;
   --lightgrey: #f3f5f7;
   --border-color: #121212;
+  --copyright: rgba(232, 236, 239, 1);
 }
 
 body {
@@ -42,7 +43,6 @@ button {
   color: var(--white);
   width: 234px;
   height: 56px;
-  /* padding: 12px 56px; */
   border-radius: 8px;
   gap: 8px;
   margin-top: 20px;
@@ -72,4 +72,19 @@ button {
 
 .margin {
   margin-bottom: 48px;
+}
+
+.bold {
+  font-weight: 600;
+}
+
+footer {
+  background-color: var(--black);
+  color: #fefefe;
+  height: 249px;
+  font-family: Inter;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 22px;
+  padding: 80px 160px 32px 160px;
 }
