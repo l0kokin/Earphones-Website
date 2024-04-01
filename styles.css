@@ -1,3 +1,4 @@
+/* -------- NOTIFICATION BAR --------- */
 .notification-bar {
   font-family: Inter;
   width: 100%;
@@ -11,7 +12,7 @@
   line-height: 22px;
   padding: 8px;
 
-  img {
+  embed {
     position: absolute;
     top: 2px;
   }
@@ -24,6 +25,7 @@
   text-decoration: underline;
 }
 
+/* -------------- HEADER ------------- */
 .navigation-bar {
   display: flex;
   gap: 100px;
@@ -104,6 +106,8 @@
   justify-content: center;
 }
 
+/* -------------------- MAIN SECTION --------------- */
+/* -------- NEW ARRIVALS ----- */
 .new-arrivals {
   margin: 48px 160px;
 }
@@ -119,6 +123,7 @@
 
 .card--image {
   z-index: -1;
+  max-width: 262px;
 }
 
 .card--new-icon {
@@ -160,6 +165,7 @@
   line-height: 22px;
 }
 
+/* --------- SHOP COLLECTION --------- */
 .shop-collection {
   margin: 48px 160px;
   padding-top: 48px;
@@ -209,4 +215,84 @@
   font-size: 16px;
   font-weight: 500;
   line-height: 28px;
+}
+
+/* --------- BEST SELLER ------- */
+.best-seller {
+  padding: 0px 160px 100px 160px;
+}
+
+.best-sellers {
+  display: grid;
+  grid-template-rows: repeat(2, auto);
+  grid-template-columns: repeat(4, 1fr);
+  gap: 48px 24px;
+}
+
+/* ----------- PROMOTION ------- */
+.promotion {
+  display: flex;
+}
+
+.promotion-text {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  justify-content: center;
+  background-color: var(--yellow);
+  width: 720px;
+  padding-left: 72px;
+}
+
+.bluetext {
+  color: var(--blue);
+  text-transform: uppercase;
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 16px;
+}
+
+.maintext {
+  margin-bottom: 0px;
+}
+
+.secondarytext {
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 32px;
+}
+
+.promotion-btn {
+  width: 154px;
+  margin-top: 8px;
+}
+
+/* --------- SERVICES -------- */
+.services {
+  gap: 24px;
+  padding: 40px 160px;
+}
+
+.service {
+  width: 263px;
+  height: 220px;
+  background-color: var(--lightgrey);
+  padding: 48px 32px;
+}
+
+.service-text--primary {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 28px;
+  margin-top: 16px;
+}
+
+.service-text--secondary {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  margin-top: 8px;
+  color: var(--grey);
 }
