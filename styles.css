@@ -296,3 +296,24 @@
   margin-top: 8px;
   color: var(--grey);
 }
+
+/* -------- JOIN OUR NEWSLETTER -------- */
+.join {
+  background-image: url(./images/Paste\ image.png);
+  height: 360px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.join-text--primary {
+  margin-top: 101px;
+}
+
+.join-text--secondary {
+  font-family: Inter;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+  margin-top: 8px;
+}
