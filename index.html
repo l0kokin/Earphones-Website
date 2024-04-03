@@ -31,23 +31,35 @@
     <header>
       <section class="navigation-bar flex">
         <p>3legant.</p>
-        <ul>
-          <li>Home</li>
-          <li>
-            Shop
-            <embed src="./icons/chevron-down.png" class="icon" />
-          </li>
-          <li>
-            Product
-            <embed src="./icons/chevron-down.png" class="icon" />
-          </li>
-          <li>Contact Us</li>
-        </ul>
+        <nav>
+          <div class="burger-menu" onclick="toggleMenu()">
+            <embed src="./icons/burger-menu.png" width="40px" />
+            <!-- <div class="burger"></div>
+            <div class="burger"></div>
+            <div class="burger"></div> -->
+          </div>
+          <ul class="menu" id="menu">
+            <li>Home</li>
+            <li>
+              Shop
+              <embed src="./icons/chevron-down.png" class="icon" />
+            </li>
+            <li>
+              Product
+              <embed src="./icons/chevron-down.png" class="icon" />
+            </li>
+            <li>Contact Us</li>
+          </ul>
+        </nav>
         <embed src="./icons/search 02.png" />
       </section>
       <section class="header">
-        <img alt="man" src="./images/Image_Placeholder-removebg-preview.png" />
-        <div>
+        <img
+          alt="man"
+          src="./images/Image_Placeholder-removebg-preview.png"
+          class="header-man"
+        />
+        <div class="header--text-container">
           <p class="header--text">
             Listen to <br />the <span>amazing</span><br />
             music sound.
@@ -76,7 +88,7 @@
             <button class="btn-small btn-addtocard">Add to cart</button>
             <div class="card--text">
               <p class="card-description">
-                Skullcandy - Crusher anc 2 wireless headphones
+                Skullcandy - Crusher anc 2 <br />wireless headphones
               </p>
               <p class="price">$299.99</p>
             </div>
@@ -337,5 +349,7 @@
         </div>
       </div>
     </footer>
+
+    <script src="script.js"></script>
   </body>
 </html>

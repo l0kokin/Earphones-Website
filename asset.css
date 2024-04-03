@@ -18,9 +18,12 @@
 }
 
 body {
+  display: flex;
+  flex-direction: column;
   font-family: "Poppins", sans-serif;
   letter-spacing: -0.4000000059604645px;
   text-align: left;
+  width: 100vw;
 }
 
 ul {
@@ -88,4 +91,10 @@ footer {
   font-weight: 400;
   line-height: 22px;
   padding: 80px 160px 32px 160px;
+  width: 100vw;
+
+  @media screen and (max-width: 760px) {
+    padding: 60px;
+    height: fit-content;
+  }
 }
