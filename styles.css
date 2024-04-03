@@ -1,7 +1,7 @@
 /* -------- NOTIFICATION BAR --------- */
 .notification-bar {
   font-family: Inter;
-  width: 100vw;
+  width: 100%;
   display: flex;
   align-items: center;
   gap: 12px;
@@ -31,7 +31,7 @@
   gap: 100px;
   padding: 10px 160px;
   background: #ffc95c;
-  width: 100vw;
+  width: 100%;
 
   p {
     font-size: 24px;
@@ -68,7 +68,7 @@
   height: 820px;
   display: flex;
   padding: 0px 100px;
-  width: 100vw;
+  width: 100%;
 
   div {
     display: flex;
@@ -96,7 +96,7 @@
 }
 
 .header--text-container {
-  width: 100vw;
+  width: 100%;
 }
 
 .header--text {
@@ -124,7 +124,8 @@
   text-align: left;
 
   @media screen and (max-width: 760px) {
-    width: 100vw;
+    width: 100%;
+
     overflow: hidden;
   }
 }
@@ -330,7 +331,7 @@
 
   @media screen and (max-width: 760px) {
     flex-direction: column;
-    width: 100vw;
+    width: 100%;
   }
 }
 
@@ -419,7 +420,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: 100vw;
+  width: 100%;
 }
 
 .join-text--primary {
