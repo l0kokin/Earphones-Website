@@ -73,6 +73,11 @@ button {
   font-size: 40px;
   font-weight: 500;
   line-height: 44px;
+
+  @media screen and (max-width: 600px) {
+    font-size: 30px;
+    line-height: 33px;
+  }
 }
 
 .margin {
@@ -94,8 +99,9 @@ footer {
   padding: 80px 160px 32px 160px;
   width: 100vw;
 
-  @media screen and (max-width: 760px) {
+  @media screen and (max-width: 900px) {
     padding: 60px;
     height: fit-content;
+    overflow-x: hidden;
   }
 }
