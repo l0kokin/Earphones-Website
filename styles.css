@@ -197,7 +197,7 @@
 .new-arrivals {
   margin: 48px 160px;
 
-  @media screen and (max-width: 1250px) {
+  @media screen and (max-width: 1200px) {
     margin: 48px 80px;
   }
 
@@ -208,10 +208,11 @@
 
 .cards {
   display: flex;
-  gap: 24px;
+  justify-content: space-between;
 
-  @media screen and (max-width: 1024px) {
+  @media screen and (max-width: 1400px) {
     display: grid;
+    gap: 24px;
     grid-template-columns: repeat(2, 1fr);
   }
 
@@ -275,7 +276,7 @@
   margin: 48px 160px;
   padding-top: 48px;
 
-  @media screen and (max-width: 1250px) {
+  @media screen and (max-width: 1200px) {
     margin: 48px 80px;
   }
 
@@ -308,6 +309,12 @@
 .collection--item {
   position: relative;
   z-index: -1;
+
+  @media screen and (max-width: 500px) {
+    img {
+      width: 100%;
+    }
+  }
 }
 
 .collection--text {
@@ -324,6 +331,11 @@
   font-size: 34px;
   font-weight: 500;
   line-height: 38px;
+
+  @media screen and (max-width: 400px) {
+    font-size: 24px;
+    line-height: 28px;
+  }
 }
 
 .collection--btn {
@@ -337,6 +349,11 @@
   font-size: 16px;
   font-weight: 500;
   line-height: 28px;
+
+  @media screen and (max-width: 400px) {
+    font-size: 14px;
+    line-height: 12px;
+  }
 }
 
 /* --------- BEST SELLER ------- */
